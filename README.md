@@ -11,15 +11,15 @@ A Module for Ramverk1Redovisning
 
 __installation__
 add to composer.json
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/ylvarw/ramverk1module"
-        }
-    ],
-    "require": {
-        "anax/module": "dev-main"
-    },
+```"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/ylvarw/ramverk1module"
+    }
+],
+"require": {
+    "anax/module": "dev-main"
+}```
 
 install with `composer update`
 
