@@ -74,8 +74,10 @@ class GeoTagJsonController implements ContainerInjectableInterface
      */
     public function indexActionPost() : array
     {
-        $ip = new IpHandler();
-        $geo = new GeoTag();
+        $ip = $this->di->get("ipHandler");
+        $geo = $this->di->get("ipPosition");
+        // $ip = new IpHandler();
+        // $geo = new GeoTag();
         // $page = $this->di->get("page");
         $request = $this->di->get("request");
         $session = $this->di->session;
