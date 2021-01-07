@@ -10,8 +10,10 @@ A Module for Ramverk1Redovisning
 
 
 __installation__
+
 add to composer.json
-```"repositories": [
+
+``` "repositories": [
     {
         "type": "vcs",
         "url": "https://github.com/ylvarw/ramverk1module"
@@ -19,17 +21,19 @@ add to composer.json
 ],
 "require": {
     "anax/module": "dev-main"
-}```
+} ```
 
 install with `composer update`
 
-add files to project with
+add files to project
+
 ```$ rsync -av vendor/anax/module/config ./```
 ```$ rsync -av vendor/anax/module/src ./```
 ```$ rsync -av vendor/anax/module/test ./```
 ```$ rsync -av vendor/anax/module/view ./```
 
 
-to move all folders at once
+or move all folders at once
+
 ```$ rsync -av vendor/anax/module/* ./```
 will overwrite the existing composer file
