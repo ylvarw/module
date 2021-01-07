@@ -14,7 +14,7 @@ __installation__
 add to composer.json
 
 ```
-"repositories": [{"type": "vcs", "url": "https://github.com/ylvarw/ramverk1module"}]
+"repositories": [{"type": "vcs", "url": "https://github.com/ylvarw/module"}]
 "require": {"anax/module": "dev-main"}
 ```
 
