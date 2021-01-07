@@ -13,27 +13,26 @@ __installation__
 
 add to composer.json
 
-``` "repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/ylvarw/ramverk1module"
-    }
-],
-"require": {
-    "anax/module": "dev-main"
-} ```
+```
+"repositories": [{"type": "vcs", "url": "https://github.com/ylvarw/ramverk1module"}]
+"require": {"anax/module": "dev-main"}
+```
 
 install with `composer update`
 
-add files to project
 
-```$ rsync -av vendor/anax/module/config ./```
-```$ rsync -av vendor/anax/module/src ./```
-```$ rsync -av vendor/anax/module/test ./```
-```$ rsync -av vendor/anax/module/view ./```
+```
+#Add files to project
+rsync -av vendor/anax/module/config ./
+rsync -av vendor/anax/module/src ./
+rsync -av vendor/anax/module/test ./
+rsync -av vendor/anax/module/view ./
+```
 
 
-or move all folders at once
+#Or move all folders at once
 
-```$ rsync -av vendor/anax/module/* ./```
-will overwrite the existing composer file
+```
+rsync -av vendor/anax/module/* ./
+```
+note that moving all at once will overwrite existing composer file
