@@ -29,10 +29,10 @@ rsync -av vendor/anax/module/test ./
 rsync -av vendor/anax/module/view ./
 ```
 
-
+```
 #Or move all folders at once
+rsync -av vendor/anax/module/* ./
+
+note that moving all at once will overwrite existing composer file
 
 ```
-rsync -av vendor/anax/module/* ./
-```
-note that moving all at once will overwrite existing composer file
