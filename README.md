@@ -11,7 +11,7 @@ add to composer.json
 
 ```
 "repositories": [{"type": "vcs", "url": "https://github.com/ylvarw/module"}]
-"require": {"anax/module": "dev-main"}
+"require": {"anax/module": "dev-master"}
 ```
 
 install with `composer update`
