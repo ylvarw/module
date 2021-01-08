@@ -29,6 +29,6 @@ rsync -av vendor/ylvan/module/view ./
 #Or move all folders at once
 rsync -av vendor/ylvan/module/* ./
 
-note that moving this will overwrite existing composer file
+note that using this command will overwrite existing composer file
 
 ```
