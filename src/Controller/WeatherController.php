@@ -5,10 +5,8 @@ namespace Ylvan\Controller;
 use Anax\Commons\ContainerInjectableInterface;
 use Anax\Commons\ContainerInjectableTrait;
 
-// use Ylvan\Model;
-
 /**
- * A controller show position of IP
+ * A controller to show weather by IP position
  * @SuppressWarnings(PHPMD.LongVariable)
  * @SuppressWarnings(PHPMD.ShortVariable)
  */
@@ -18,11 +16,7 @@ class WeatherController implements ContainerInjectableInterface
 
     public function indexAction() : object
     {
-        // $geo = new IpPosition();
-        // $weather = new WeatherHandler();
-        // $map = new Map();
-
-        // get ipHandler from Di
+        // get handler classes from Di
         $ipNumber = $this->di->get("ipHandler");
         $geo = $this->di->get("ipPosition");
         $weather = $this->di->get("weatherHandler");
@@ -32,12 +26,11 @@ class WeatherController implements ContainerInjectableInterface
         $searchIP = $request->getPOST("SearchIP", null);
         $searchHistoryIP = $request->getPOST("SearchHistoryIP", null);
         $forecast = $request->getPOST("forecast", null);
-
         $useip = $request->getPOST("ip", null);
+       
+        // users ip information
         $userIp = $ipNumber->getUserIp();
-
         $contentText = "Välj Ip och väder att visa";
-        // users ip position
         $userposition = $geo->getPosition($userIp);
         $placeholderCity = $userposition['city'];
 
@@ -74,7 +67,6 @@ class WeatherController implements ContainerInjectableInterface
                 $noData = "Could not find weather data, not a valid IP";
             }
         }
-
 
         $page->add("weather/weather", [
             "content" => $contentText,
