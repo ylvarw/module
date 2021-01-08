@@ -11,24 +11,24 @@ add to composer.json
 
 ```
 "repositories": [{"type": "vcs", "url": "https://github.com/ylvarw/module"}]
-"require": {"anax/module": "dev-master"}
+"require": {"ylvan/module": "dev-master"}
 ```
 
-install with `composer update`
 
+install module with `composer update`
 
 ```
 #Add files to project
-rsync -av vendor/anax/module/config ./
-rsync -av vendor/anax/module/src ./
-rsync -av vendor/anax/module/test ./
-rsync -av vendor/anax/module/view ./
+rsync -av vendor/ylvan/module/config ./
+rsync -av vendor/ylvan/module/src ./
+rsync -av vendor/ylvan/module/test ./
+rsync -av vendor/ylvan/module/view ./
 ```
 
 ```
 #Or move all folders at once
-rsync -av vendor/anax/module/* ./
+rsync -av vendor/ylvan/module/* ./
 
-note that moving all at once will overwrite existing composer file
+note that moving this will overwrite existing composer file
 
 ```
