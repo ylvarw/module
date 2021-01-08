@@ -10,7 +10,7 @@ __installation__
 add to composer.json
 
 ```
-"repositories": [{"type": "vcs", "url": "https://github.com/ylvarw/module"}]
+<!-- "repositories": [{"type": "vcs", "url": "https://github.com/ylvarw/module"}] -->
 "require": {"ylvan/module": "dev-master"}
 ```
 
