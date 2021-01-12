@@ -5,6 +5,7 @@ A Module for Ramverk1Redovisning
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ylvarw/module/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ylvarw/module/?branch=master)
 
+[![Build Status](https://scrutinizer-ci.com/g/ylvarw/module/badges/build.png?b=master)](https://scrutinizer-ci.com/g/ylvarw/module/build-status/master)
 __installation__
 
 add to composer.json
