@@ -1,0 +1,32 @@
+{
+    "name" : "anax/anax-ramverk1-me",
+    "description": "A me page for the ramverk1 course using Anax Flat.",
+    "homepage": "https://github.com/canax/anax-ramverk1-me",
+    "license": "MIT",
+    "keywords": ["Anax", "dbwebb", "ramverk1"],
+    "authors": [
+        {
+            "name": "Mikael Roos",
+            "email": "mos@dbwebb.se"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/canax/anax-ramverk1-me/issues",
+        "source": "https://github.com/canax/anax-ramverk1-me"
+    },
+    "autoload": {
+        "psr-4": {"Anax\\": "src/"}
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2",
+        "anax/anax-flat": "^1.0.11",
+        "anax/database": "^2.0.0",
+        "anax/cache": "^2.0.0@beta",
+        "anax/content": "^2.0.0@beta"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}

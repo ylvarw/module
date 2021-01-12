@@ -1,0 +1,19 @@
+{
+    "name" : "ylvan/module",
+    "description": "A base module for ramverk1 course.",
+    "license": "MIT",
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Ylvan\\": "src/",
+            "Models\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}

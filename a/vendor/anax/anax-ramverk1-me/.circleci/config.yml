@@ -1,0 +1,47 @@
+version: 2
+jobs:
+    build:
+        docker:
+            # specify the version you desire here
+            #- image: circleci/php:7.1.5-browsers
+            - image: anax/dev
+
+            # Specify service dependencies here if necessary
+            # CircleCI maintains a library of pre-built images
+            # documented at https://circleci.com/docs/2.0/circleci-images/
+            # - image: circleci/mysql:9.4
+
+        working_directory: ~/repo
+
+        steps:
+            - checkout
+
+            # Download and cache dependencies
+            - restore_cache:
+                keys:
+                    - v1-dependencies-{{ checksum "composer.json" }}
+                    # fallback to using the latest cache if no exact match
+                    # is found
+                    - v1-dependencies-
+
+            #- run: composer install -n --prefer-dist
+            - run: make install
+
+            - save_cache:
+                paths:
+                    - ./vendor
+                key: v1-dependencies-{{ checksum "composer.json" }}
+
+            - run: make check
+            - run: make test
+
+
+
+notify:
+    webhooks:
+        # canax
+        - url: https://webhooks.gitter.im/e/c8ff44f50de935adf880
+        # canax/anax-ramverk1-me
+        - url: https://webhooks.gitter.im/e/5f3f53a97e274a58fa26
+        # dbwebb-se/ramverk1
+        - url: https://webhooks.gitter.im/e/40c2589926b728a29a2a
