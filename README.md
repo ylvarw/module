@@ -6,12 +6,14 @@ A Module for Ramverk1Redovisning
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ylvarw/module/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ylvarw/module/?branch=master)
 
 [![Build Status](https://scrutinizer-ci.com/g/ylvarw/module/badges/build.png?b=master)](https://scrutinizer-ci.com/g/ylvarw/module/build-status/master)
+
+[![Build Status](https://travis-ci.org/ylvarw/module.svg?branch=master)](https://travis-ci.org/ylvarw/module)
+
 __installation__
 
 add to composer.json
 
 ```
-<!-- "repositories": [{"type": "vcs", "url": "https://github.com/ylvarw/module"}] -->
 "require": {"ylvan/module": "dev-master"}
 ```
 
