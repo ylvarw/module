@@ -1,0 +1,17 @@
+version: "3"
+services:
+    website: &website
+        image: anax/dev:latest-apache
+        #image: anax/dev:php74-apache
+        #image: anax/dev:php73-apache
+        ports:
+            - "8088:80"
+        volumes:
+            - .:/app
+            - ./config/docker/website.conf:/etc/apache2/sites-enabled/000-default.conf
+    cli:
+        image: anax/dev:latest-cli
+        #image: anax/dev:php74-cli
+        #image: anax/dev:php73-cli
+        volumes:
+            - .:/home/anax/repo
