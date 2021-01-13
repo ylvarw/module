@@ -1,11 +1,13 @@
 language: php
+php:
+    -'7.4'
 
 before_script:
     - make install
 
 script:
     - make check
-    # - make test
+    - make test
 
 notifications:
     on_success: change  # options: [always|never|change] default: always
