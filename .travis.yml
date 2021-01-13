@@ -5,7 +5,7 @@ before_script:
 
 script:
     - make check
-    - make test
+    # - make test
 
 notifications:
     on_success: change  # options: [always|never|change] default: always
