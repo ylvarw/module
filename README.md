@@ -18,6 +18,7 @@ CircleCI
 Symfony
 [![SymfonyInsight](https://insight.symfony.com/projects/6cafa987-3ae6-4f3c-b535-e9b641680a6d/mini.svg)](https://insight.symfony.com/projects/6cafa987-3ae6-4f3c-b535-e9b641680a6d)
 
+gitterChatt
 [![Gitter](https://badges.gitter.im/ylvan/module.svg)](https://gitter.im/ylvan/module?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 __installation__
