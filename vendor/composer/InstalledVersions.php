@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '53921d1d7ef5b772563dcd54a3c86534fc9797b4',
+    'reference' => '560f35ee41f241a2a6c846b5ff8fc73febd37efe',
     'name' => 'ylvan/module',
   ),
   'versions' => 
@@ -297,7 +297,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '53921d1d7ef5b772563dcd54a3c86534fc9797b4',
+      'reference' => '560f35ee41f241a2a6c846b5ff8fc73febd37efe',
     ),
   ),
 );
