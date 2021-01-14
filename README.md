@@ -3,17 +3,20 @@ Module
 
 A Module for Ramverk1Redovisning
 
+Scrutinizer
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ylvarw/module/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ylvarw/module/?branch=master)
 
+scrutinizer
 [![Build Status](https://scrutinizer-ci.com/g/ylvarw/module/badges/build.png?b=master)](https://scrutinizer-ci.com/g/ylvarw/module/build-status/master)
 
+Travis
 [![Build Status](https://travis-ci.org/ylvarw/module.svg?branch=master)](https://travis-ci.org/ylvarw/module)
 
+CircleCI
 [![ylvarw](https://circleci.com/gh/ylvarw/module.svg?style=svg)](https://app.circleci.com/pipelines/github/ylvarw/module?branch=main)
 
-
-[![ylvarw](https://circleci.com/gh/ylvarw/module.svg?style=svg)](https://app.circleci.com/pipelines/github/ylvarw/module?branch=main)
-
+Symfony
+[![SymfonyInsight](https://insight.symfony.com/projects/6cafa987-3ae6-4f3c-b535-e9b641680a6d/mini.svg)](https://insight.symfony.com/projects/6cafa987-3ae6-4f3c-b535-e9b641680a6d)
 
 __installation__
 
