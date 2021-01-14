@@ -9,6 +9,9 @@ A Module for Ramverk1Redovisning
 
 [![Build Status](https://travis-ci.org/ylvarw/module.svg?branch=master)](https://travis-ci.org/ylvarw/module)
 
+[![ylvarw](https://circleci.com/gh/ylvarw/module.svg?style=svg)](https://app.circleci.com/pipelines/github/ylvarw/module?branch=main)
+
+
 __installation__
 
 add to composer.json
