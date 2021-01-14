@@ -16,7 +16,7 @@ CircleCI
 [![ylvarw](https://circleci.com/gh/ylvarw/module.svg?style=svg)](https://app.circleci.com/pipelines/github/ylvarw/module?branch=main)
 
 Symfony
-[![SymfonyInsight](https://insight.symfony.com/projects/6cafa987-3ae6-4f3c-b535-e9b641680a6d/mini.svg)](https://insight.symfony.com/projects/6cafa987-3ae6-4f3c-b535-e9b641680a6d)
+[![SymfonyInsight](https://insight.symfony.com/projects/6cafa987-3ae6-4f3c-b535-e9b641680a6d/mini.svg)](https://insight.symfony.com/projects/6cafa987-3ae6-4f3c-b535-e9b641680a6d) [![Join the chat at https://gitter.im/ylvan/module](https://badges.gitter.im/ylvan/module.svg)](https://gitter.im/ylvan/module?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 __installation__
 
