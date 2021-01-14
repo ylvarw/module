@@ -19,7 +19,8 @@ git:
 
 before_script:
     # - make install check
-    - make install test
+    # - make install test
+    - make install
 
 script:
     - make test
