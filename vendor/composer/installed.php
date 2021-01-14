@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'dev-master',
-    'version' => 'dev-master',
+    'pretty_version' => 'dev-develop',
+    'version' => 'dev-develop',
     'aliases' => 
     array (
     ),
-    'reference' => '26c5e137a1133acf42024e7e3c8f70b0dfd5cd0a',
+    'reference' => '53921d1d7ef5b772563dcd54a3c86534fc9797b4',
     'name' => 'ylvan/module',
   ),
   'versions' => 
@@ -269,12 +269,12 @@
     ),
     'ylvan/module' => 
     array (
-      'pretty_version' => 'dev-master',
-      'version' => 'dev-master',
+      'pretty_version' => 'dev-develop',
+      'version' => 'dev-develop',
       'aliases' => 
       array (
       ),
-      'reference' => '26c5e137a1133acf42024e7e3c8f70b0dfd5cd0a',
+      'reference' => '53921d1d7ef5b772563dcd54a3c86534fc9797b4',
     ),
   ),
 );
