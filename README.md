@@ -47,3 +47,5 @@ rsync -av vendor/ylvan/module/* ./
 note that using this command will overwrite existing composer file
 
 ```
+
+Do a `composer dump` to update namespaces
